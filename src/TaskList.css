@@ -1,0 +1,42 @@
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: tan;
+  border-radius: 10px;
+  color: black;
+}
+
+.task-item {
+  width: 300px;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.task-item h3 {
+  margin-top: 0;
+}
+
+.task-item.completed {
+  background-color: #43a5be; /* Apply a different background color for completed tasks */
+}
+.taskName {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.taskDescription {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.remove-button {
+  background-color: saddlebrown;
+  border-radius: 3px;
+  padding: 5px;
+  border-width: 0px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
